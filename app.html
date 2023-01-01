@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TalkBook</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,700;1,300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="navbar">
+      <br />
+      <a href="#profiles">Your Profile</a>
+      <a href="#public-chat-room">Public Chat Room</a>
+      <a href="#chat-rooms">Create Your Own Chat Room</a>
+      <a href="#contact">Contact</a>
+      <br />
+    </div>
+    <div id="profiles">
+      <h2>Welcome <span id="username"></span></h2>
+    </div>
+    <br />
+    <br />
+    <br />
+
+    <div id="public-chat-room">
+      <h2>Public Chat Room</h2>
+      <div id="chat">
+        <br />
+        <div id="box"></div>
+        <br />
+        <br />
+        <input type="text" id="tag" placeholder="Tag Someone" /><input
+          type="text"
+          id="input"
+          placeholder="Your message"
+        />
+        <br />
+        <br />
+      </div>
+    </div>
+    <br />
+    <br />
+    <br />
+
+    <div id="chat-rooms">
+      <h2>Private Chat Rooms</h2>
+      <div id="join-container">
+        <br>
+        <input type="text" placeholder="Join chat room" id="lobby-input">
+        <button id="submit2">Join</button>
+      </div>
+      <div id="chat2" style="display: none;">
+        
+
+        <div id="messages" >
+            
+        </div>
+        <input type="text"placeholder="Tag Somebody" id="tagger"><input type="text" placeholder="Say something cool" id="input-container">
+        
+        <br>
+        </div>
+    
+        
+    </div>
+    <div id="contact">
+      <h2>2023 &copy; Made by FrljokiMaster</h2>
+      <div class="container">
+        <form
+          target="_blank"
+          action="https://formsubmit.co/frljokimaster@gmail.com"
+          method="POST"
+        >
+          <div class="form-group">
+            <div class="form-row">
+              <div class="col">
+                <input
+                  type="text"
+                  name="name"
+                  class="form-control"
+                  placeholder="Full Name"
+                  required
+                />
+              </div>
+              <br />
+              <br />
+              <div class="col">
+                <input
+                  type="email"
+                  name="email"
+                  class="form-control"
+                  placeholder="Email Address"
+                  required
+                />
+              </div>
+            </div>
+          </div>
+          <br />
+          <br />
+          <div class="form-group">
+            <textarea
+              placeholder="Your Message"
+              class="form-control"
+              name="message"
+              rows="10"
+              required
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn-lg btn-dark btn-block">
+            Submit Form
+          </button>
+        </form>
+      </div>
+    </div>
+    <script src=https://cdn.pubnub.com/sdk/javascript/pubnub.4.28.2.min.js></script>
+    <script src="script.js"></script>
+  </body>
+</html>

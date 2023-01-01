@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Josefin Sans";
+  outline: none;
+}
+
+h1 {
+  font-size: 44px;
+}
+
+body {
+  background: #65b95e;
+}
+
+#profiles,
+#contact,
+#public-chat-room,
+#chat-rooms {
+  color: #fff;
+  background: #70d368;
+  padding: 3%;
+  text-align: center;
+  width: 500px;
+  margin-left: 30%;
+  border-radius: 45px;
+  box-shadow: 2px 2px 2px 2px #555;
+  margin-top: 3%;
+}
+
+#box,
+#messages {
+  font-size: 20px;
+  overflow-y: scroll;
+  height: 300px;
+}
+
+form {
+  margin: auto;
+  color: #fff;
+  background: #70d368;
+  padding: 3%;
+  text-align: center;
+  width: 500px;
+
+  border-radius: 45px;
+  box-shadow: 2px 2px 2px 2px #555;
+  margin-top: 3%;
+}
+
+#contact form {
+  padding: 0;
+  width: 300px;
+  box-shadow: 0px 0px 0px 0px;
+}
+
+input,
+button,
+textarea,
+a {
+  resize: none;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 25px;
+  border: none;
+  transition: 0.2s;
+}
+
+#navbar {
+  text-align: center;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px;
+  border: 3px solid #42833e;
+}
+
+input:focus {
+  border: 3px solid #42833e;
+}
+
+p {
+  font-size: 18px;
+}
+
+h2 {
+  font-size: 33px;
+  color: #fff;
+  text-align: center;
+}
+
+.icon {
+  width: 18px;
+  height: 18px;
+  color: #42833e;
+}
